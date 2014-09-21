@@ -1,0 +1,24 @@
+Running: /opt/xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test_isim_beh.exe -prj /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test_beh.prj work.comparitor_test 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor.vhd" into library work
+Parsing VHDL file "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.vhd" into library work
+Parsing VHDL file "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95020 KB
+Fuse CPU Usage: 800 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture eq1 of entity comparitor [comparitor_default]
+Compiling architecture eq2 of entity comparitor_2bit [comparitor_2bit_default]
+Compiling architecture behavior of entity comparitor_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test_isim_beh.exe
+Fuse Memory Usage: 1185040 KB
+Fuse CPU Usage: 830 ms
+GCC CPU Usage: 430 ms

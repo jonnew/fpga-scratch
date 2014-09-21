@@ -1,0 +1,19 @@
+CONFIG VCCAUX = "3.3" ;
+
+#NET "MCLK" LOC = P129;
+#TIMESPEC TS_CLK = PERIOD "CLK" 12 MHz HIGH 50%;
+
+############################################################################
+# LED
+############################################################################
+
+NET "z"            LOC = P55  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ; # LED 0
+
+############################################################################
+# DIP Switches
+############################################################################
+
+NET "A<0>"       LOC = P70  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ; # DIP 0
+NET "A<1>"       LOC = P69  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ; # DIP 1
+NET "B<0>"       LOC = P68  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ; # DIP 2
+NET "B<1>"       LOC = P64  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ; # DIP 3

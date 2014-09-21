@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test_isim_beh.exe" -prj "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_test_beh.prj" "work.comparitor_test" 

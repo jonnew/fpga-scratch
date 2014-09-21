@@ -1,0 +1,15 @@
+V3 6
+FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor.vhd 2014/09/20.13:44:47 P.20131013
+EN work/comparitor 1411333325 \
+      FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparitor/eq1 1411333326 \
+      FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor.vhd \
+      EN work/comparitor 1411333325
+FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.vhd 2014/09/20.13:46:29 P.20131013
+EN work/comparitor_2bit 1411333327 \
+      FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparitor_2bit/eq2 1411333328 \
+      FL /home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.vhd \
+      EN work/comparitor_2bit 1411333327 AR work/comparitor/eq1 1411333326

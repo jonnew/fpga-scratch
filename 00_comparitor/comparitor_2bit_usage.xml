@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="4">
+<DesignStatistics TimeStamp="Sun Sep 21 17:02:21 2014"><group name="NetStatistics">
+<item name="NumNets_Active" rev="4">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="4">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_DUMMY" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_DUMMYESC" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="4">
+<attrib name="value" value="5"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_OMUX" rev="4">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFMTB" rev="4">
+<attrib name="value" value="2"/></item>
+<item name="IBUF-DIFFSTB" rev="4">
+<attrib name="value" value="2"/></item>
+<item name="IOB-DIFFSTB" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="SLICEL-SLICEM" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="3">
+<attrib name="value" value="5"/></item>
+<item name="AGG_IO" rev="3">
+<attrib name="value" value="5"/></item>
+<item name="AGG_SLICE" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NUM_4_INPUT_LUT" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NUM_BONDED_IBUF" rev="3">
+<attrib name="value" value="4"/></item>
+<item name="NUM_BONDED_IOB" rev="3">
+<attrib name="value" value="1"/></item>
+<item name="NUM_SLICEL" rev="3">
+<attrib name="value" value="1"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Sun Sep 21 17:02:21 2014"><group name="SiteSummary">
+<item name="IBUF" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_DELAY_ADJ_BBOX" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_INBUF" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_PAD" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IOB" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_OUTBUF" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_PAD" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="SLICEL" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="SLICEL_G" rev="4">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Sun Sep 21 17:02:21 2014"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="4">
+<attrib name="LVTTL" value="4"/></item>
+<item name="PULL" rev="4">
+<attrib name="PULLUP" value="4"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="4">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="1"/></item>
+<item name="SUSPEND" rev="4">
+<attrib name="3STATE" value="1"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="DELAY_ADJ_ATTRBOX" rev="4">
+<attrib name="FIXED" value="4"/></item>
+<item name="IBUF_DELAY_VALUE" rev="4">
+<attrib name="DLY0" value="4"/></item>
+<item name="IFD_DELAY_VALUE" rev="4">
+<attrib name="DLY0" value="4"/></item>
+<item name="SEL_IN" rev="4">
+<attrib name="SEL_IN" value="4"/><attrib name="SEL_IN_INV" value="0"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="4">
+<attrib name="8" value="1"/></item>
+<item name="IOATTRBOX" rev="4">
+<attrib name="LVTTL" value="1"/></item>
+<item name="SLEW" rev="4">
+<attrib name="FAST" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="4">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Sun Sep 21 17:02:21 2014"><group name="IBUF_PAD">
+<item name="PAD" rev="4">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="OUT" rev="4">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SLICEL">
+<item name="G1" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="G2" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="G3" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="G4" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="Y" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="PAD" rev="4">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="IBUF_OUT" rev="4">
+<attrib name="value" value="4"/></item>
+<item name="SEL_IN" rev="4">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="PAD" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_G">
+<item name="A1" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="A2" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="A3" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="A4" rev="4">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="4">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.ncd
+OUTFILE=/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/comparitor_2bit.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor
+LICENSE=WebPack
+USER_INFO=210939644_0_0_250
