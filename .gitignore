@@ -5,4 +5,7 @@
 # Ingore compressed stuff
 *.zip
 
+# Ignore testbench output data
+*.wdb
+
 # Ignore subdirectories ISE project directories
