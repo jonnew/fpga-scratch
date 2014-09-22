@@ -1,0 +1,3 @@
+vhdl work "input_select.vhd"
+vhdl work "decoder_2_4.vhd"
+vhdl work "struct_desc.vhd"

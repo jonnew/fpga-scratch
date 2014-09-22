@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Sep 21 18:18:54 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "Y<1>" LOCATE = SITE "P54" LEVEL 1;
+COMP "Y<2>" LOCATE = SITE "P51" LEVEL 1;
+COMP "Y<3>" LOCATE = SITE "P50" LEVEL 1;
+COMP "en" LOCATE = SITE "P80" LEVEL 1;
+COMP "A<0>" LOCATE = SITE "P58" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "P59" LEVEL 1;
+COMP "Y<0>" LOCATE = SITE "P55" LEVEL 1;
+SCHEMATIC END;
+

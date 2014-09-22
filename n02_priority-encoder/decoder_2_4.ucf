@@ -1,0 +1,31 @@
+CONFIG VCCAUX = "3.3" ;
+
+############################################################################
+# LED
+############################################################################
+
+    NET "LED<7>"            LOC = P50  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<6>"            LOC = P51  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<5>"            LOC = P54  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<4>"            LOC = P55  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+	 NET "LED<3>"            LOC = P46  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<2>"            LOC = P47  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<1>"            LOC = P48  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+    NET "LED<0>"            LOC = P49  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+
+############################################################################
+# DP Switches
+############################################################################
+
+    NET "DPSwitch<1>"       LOC = P59  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "DPSwitch<0>"       LOC = P58  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+	 
+############################################################################
+# Switches
+############################################################################
+
+    NET "Switch<0>"         LOC = P80  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+	 NET "Switch<1>"         LOC = P79  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "Switch<2>"         LOC = P78  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "Switch<3>"         LOC = P77 | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "Switch<4>"         LOC = P76 | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;

@@ -1,0 +1,8 @@
+# Ignore executables
+*.exe
+*.o
+
+# Ingore compressed stuff
+*.zip
+
+# Ignore subdirectories ISE project directories
