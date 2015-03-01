@@ -1,11 +1,16 @@
-# Ignore executables
-*.exe
-*.o
+# The Xilinx tools basically vomit intermediate build files and log files all over your build directory
+# Try to deal with that
 
-# Ingore compressed stuff
-*.zip
+# Ignore everything
+*
 
-# Ignore testbench output data
-*.wdb
+# Except these files
+!.gitignore
+!*.vhd
+!*.ucf
+!*.v
+!*.vh
+!*.xcf
 
-# Ignore subdirectories ISE project directories
+# Even if they are in sub dirs
+!*/

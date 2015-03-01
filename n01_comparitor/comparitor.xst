@@ -1,5 +1,0 @@
-set -tmpdir "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/xst/projnav.tmp"
-set -xsthdpdir "/home/jon/Public/elbert-scratch/00_1-bit-comparitor/comparitor/xst"
-elaborate
--ifn comparitor.prj
--ifmt mixed
