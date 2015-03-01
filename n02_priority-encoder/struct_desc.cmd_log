@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "/home/jon/Public/elbert-scratch/n02_priority-encoder/struct_desc.xst" -ofn "/home/jon/Public/elbert-scratch/n02_priority-encoder/struct_desc.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder_2_4.ucf -p xc3s50a-tq144-5 struct_desc.ngc struct_desc.ngd  
-map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o struct_desc_map.ncd struct_desc.ngd struct_desc.pcf 
-par -w -intstyle ise -ol high -t 1 struct_desc_map.ncd struct_desc.ncd struct_desc.pcf 
-trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml struct_desc.twx struct_desc.ncd -o struct_desc.twr struct_desc.pcf -ucf decoder_2_4.ucf 
-bitgen -intstyle ise -f struct_desc.ut struct_desc.ncd 

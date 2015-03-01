@@ -1,5 +1,0 @@
-set -tmpdir "/home/jon/Public/elbert-scratch/n02_priority-encoder/xst/projnav.tmp"
-set -xsthdpdir "/home/jon/Public/elbert-scratch/n02_priority-encoder/xst"
-elaborate
--ifn input_select.prj
--ifmt mixed
