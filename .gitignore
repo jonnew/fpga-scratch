@@ -11,6 +11,11 @@
 !*.v
 !*.vh
 !*.xcf
+!*.xise
+!*.swp
 
 # Even if they are in sub dirs
 !*/
+
+# But reignore vhd files created during compilation
+netgen/

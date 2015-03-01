@@ -1,0 +1,18 @@
+CONFIG VCCAUX = "3.3" ;
+
+############################################################################
+# LED
+############################################################################
+
+    NET "OUTPUT"     LOC = P49  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST ;
+
+############################################################################
+# DP Switches
+############################################################################
+
+    NET "A<1>"       LOC = P70  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "A<0>"       LOC = P69  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "B<0>"       LOC = P68  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+    NET "B<1>"       LOC = P64  | IOSTANDARD = LVTTL | DRIVE = 8 | SLEW = FAST | PULLUP ;
+	 
+
