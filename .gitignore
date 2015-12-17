@@ -1,5 +1,5 @@
-# The Xilinx tools basically vomit intermediate build files and log files all over your build directory
-# Try to deal with that
+# The Xilinx tools basically vomit intermediate build files and log files all
+# over your build directory Try to deal with that
 
 # Ignore everything
 *
